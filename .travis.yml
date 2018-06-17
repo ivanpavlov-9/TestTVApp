@@ -3,3 +3,4 @@ xcode_project: TestTVApp.xcodeproj # path to your xcodeproj folder
 xcode_scheme: TestTVAppUITests
 osx_image: xcode9.4
 xcode_sdk: tvos9.0 
+script: xcodebuild test -project TestTVApp.xcodeproj -scheme TestTVAppUITests
